@@ -1,0 +1,23 @@
+/* src/pages/ConnectingWithFamily.module.css */
+
+.container {
+    padding: 20px;
+  }
+  
+  .video-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .video-item {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-item h3 {
+    color: #333;
+  }
+  

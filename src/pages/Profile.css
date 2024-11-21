@@ -1,0 +1,75 @@
+/* Main container styling */
+.profile-container {
+  padding: 50px;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Main heading styling */
+.main-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Sub-heading styling */
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2980b9;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2980b9;
+  padding-bottom: 5px;
+}
+
+/* List styling */
+.profile-list {
+  font-size: 18px;
+  color: #34495e;
+  line-height: 1.6;
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Message for saved resources */
+.no-resources-message {
+  font-size: 18px;
+  color: #6c757d;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-style: italic;
+}
+
+/* Enhancing layout and responsiveness */
+.profile-container * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    padding: 30px;
+  }
+
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .section-heading {
+    font-size: 20px;
+  }
+
+  .profile-list,
+  .no-resources-message {
+    font-size: 16px;
+  }
+}

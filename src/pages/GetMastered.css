@@ -1,0 +1,17 @@
+.get-mastered {
+    padding: 20px;
+  }
+  
+  .app-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .app-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  

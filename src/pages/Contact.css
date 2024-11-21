@@ -1,0 +1,125 @@
+/* Main container styling */
+.contact-container {
+  padding: 50px;
+  max-width: 700px;
+  margin: 40px auto;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+.main-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.description {
+  font-size: 18px;
+  color: #6c757d;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 26px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact form styling */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #495057;
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px 15px;
+  font-size: 16px;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.form-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Submit button styling */
+.form-button {
+  padding: 14px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2);
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 86, 179, 0.3);
+}
+
+.form-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(0, 86, 179, 0.2);
+}
+
+/* Additional styles for alignment and responsiveness */
+.contact-container * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px;
+  }
+
+  .main-heading {
+    font-size: 28px;
+  }
+
+  .sub-heading {
+    font-size: 22px;
+  }
+}

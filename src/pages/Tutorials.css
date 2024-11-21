@@ -1,0 +1,17 @@
+.tutorials {
+    padding: 20px;
+  }
+  
+  .tutorial-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tutorial-card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
